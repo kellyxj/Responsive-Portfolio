@@ -1,0 +1,169 @@
+body{
+    background: url("../images/pipes.png");
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.content{
+    background: white;
+    width: 960px;
+    margin: 0px 60px 0px 280px;
+}
+
+h1, h4{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#header{
+    background: white;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: lightgrey;
+}
+
+#myName{
+    background-color:rgb(74,170,165);
+    width:200px;
+    height:100%;
+    padding: 5px 15px 0px 15px;
+    text-align:center;
+    display: inline-block;
+}
+
+#myName h1{
+    color:white;
+}
+
+nav{
+    float: right;
+    margin-top: 15px;
+}
+
+nav a{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+nav li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+}
+
+.notLast{
+    border-right: solid;
+    border-width: 1px;
+    border-color: lightgrey;
+    padding-right: 15px;
+}
+
+#selfPic{
+    margin: 0px 15px 15px 15px;
+    float: left;
+}
+
+p{
+    display: inline;
+    line-height: 2;
+    color: rgb(149, 119, 119);
+}
+
+hr{
+    margin: 0px 15px 0px 15px;
+    color: lightgrey;
+}
+
+.container{
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container h1{
+    padding: 0px 0px 0px 15px;
+    color: rgb(74,170,165)
+}
+
+form{
+    margin: 15px 20px 15px 15px;
+}
+
+.formItem{
+    margin: 10px 0px 0px 0px;
+}
+
+label{
+    color:rgb(153, 153, 153)
+}
+
+input{
+    margin-top: 5px;
+    padding: 2px 0px 2px 5px;
+}
+
+input[type="submit"]{
+    background: rgb(74,170,165);
+    text-align: center;
+    color: white;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 10pt;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    margin-top: 10px;
+}
+
+#msg{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.portfolioItem{
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    margin: 20px 20px 0px 20px;
+}
+
+.portfolioItem img{
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+
+.portfolioTitle{
+    position: relative;
+    background: rgb(74,170,165);
+    width: 100%;
+    height: 20%;
+    bottom: 35%;
+    z-index: 2;
+    text-align:center;
+    color:white;
+}
+
+.portfolioTitle h4{
+    font-weight: normal;
+    padding-top: 8px;
+}
+
+footer{
+    text-align: center;
+    font-size: 8pt;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    background: rgb(102, 102, 102);
+    border-top: solid;
+    border-width: 8px;
+    border-color: rgb(74,170,165);
+}
+
+footer::after{
+    color: white;
+    content: "Copyright ©";
+}\
